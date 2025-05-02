@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Examples</title>
+    <!-- Internal CSS -->
+    <style>
+        /* Global Reset for padding, margins, and font styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+            font-size: 16px;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #ddd;
+            margin: 30px 0;
+        }
+
+        /* Inline CSS Styling */
+        h1 {
+            color: red;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        /* Internal CSS Styling for h2 */
+        h2 {
+            color: green;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* External CSS (but for demo purposes) */
+        h3 {
+            color: #3498db;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        /* Element Selector Example */
+        h4 {
+            color: #e74c3c;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        /* Class Selector Example */
+        .myclass {
+            color: white;
+            background-color: #2ecc71;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* ID Selector Example */
+        #myid {
+            color: white;
+            background-color: #8e44ad;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Group Selector Example */
+        h5,
+        p {
+            color: #34495e;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+   
+    <h1 style="color: red;">INLINE CSS EXAMPLE</h1>
+    <h2>INTERNAL CSS EXAMPLE</h2>
+    <h3>EXTERNAL CSS EXAMPLE</h3>
+    <hr>
+    <h4>ELEMENT SELECTOR EXAMPLE</h4>
+     <hr>
+    <h2 class="myclass">CLASS SELECTOR EXAMPLE</h2>
+    <h2 id="myid">ID SELECTOR EXAMPLE</h2>
+    <h2 class="myclass">CLASS SELECTOR EXAMPLE</h2>
+    <hr>
+    <h5>GROUP SELECTOR EXAMPLE</h5>
+    <p>GROUP SELECTOR EXAMPLE</p>
+
+    <hr>
+</body>
+
+</html>

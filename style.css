@@ -1,0 +1,8 @@
+/* External CSS for dark mode */
+h3 {
+    text-transform: uppercase;
+    background-color: #263238;
+    padding: 10px;
+    border-left: 5px solid #00acc1;
+    border-radius: 4px;
+}
